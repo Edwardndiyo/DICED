@@ -24,7 +24,7 @@ const SignupPage = () => {
   const handleFormSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post(' http://edwardndiyoo.pythonanywhere.com/signup', formData);
+      const response = await axios.post(' https://edwardndiyoo.pythonanywhere.com/signup', formData);
       console.log(response.data);
       if (response.data.success) {
         alert('User registered successfully');
