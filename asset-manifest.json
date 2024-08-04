@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/DICED/static/css/main.c30551eb.chunk.css",
+    "main.js": "/DICED/static/js/main.1466c361.chunk.js",
+    "main.js.map": "/DICED/static/js/main.1466c361.chunk.js.map",
+    "runtime~main.js": "/DICED/static/js/runtime~main.2a007eee.js",
+    "runtime~main.js.map": "/DICED/static/js/runtime~main.2a007eee.js.map",
+    "static/js/2.23f64e0e.chunk.js": "/DICED/static/js/2.23f64e0e.chunk.js",
+    "static/js/2.23f64e0e.chunk.js.map": "/DICED/static/js/2.23f64e0e.chunk.js.map",
+    "static/js/3.2ee60a5f.chunk.js": "/DICED/static/js/3.2ee60a5f.chunk.js",
+    "static/js/3.2ee60a5f.chunk.js.map": "/DICED/static/js/3.2ee60a5f.chunk.js.map",
+    "index.html": "/DICED/index.html",
+    "precache-manifest.fd3d39b2aa1aba16cf6a96a7dab5775f.js": "/DICED/precache-manifest.fd3d39b2aa1aba16cf6a96a7dab5775f.js",
+    "service-worker.js": "/DICED/service-worker.js",
+    "static/css/main.c30551eb.chunk.css.map": "/DICED/static/css/main.c30551eb.chunk.css.map",
+    "static/media/717fd4d6f85a77a6eaebc9eec0dfcd69.jpg": "/DICED/static/media/717fd4d6f85a77a6eaebc9eec0dfcd69.e9ccc883.jpg",
+    "static/media/HomePage.css": "/DICED/static/media/Rolling_Dice_by_ianllanason_DeviantArt.2ccb2cff.jpg",
+    "static/media/SignupPage.css": "/DICED/static/media/98eb09406e4537d1087bfea99bd5db79.69e0a894.jpg",
+    "static/media/Rpg_Dice_Drawing.jpg": "/DICED/static/media/Rpg_Dice_Drawing.6363a051.jpg"
+  }
+}
