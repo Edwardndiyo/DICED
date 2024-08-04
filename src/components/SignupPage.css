@@ -1,0 +1,63 @@
+/* LoginPage.css and SignupPage.css */
+
+.signup-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('../images/98eb09406e4537d1087bfea99bd5db79.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+ .signup-page {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  color: white;
+}
+
+ .signup-page h1 {
+  margin-bottom: 1rem;
+}
+
+ .signup-page p {
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  margin-top: 0.5rem;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: teal;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+ .signup-page.light {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+}
+
+button.light {
+  background-color: gray;
+  color: black;
+}
