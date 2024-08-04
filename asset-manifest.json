@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/DICED/static/css/main.c30551eb.chunk.css",
-    "main.js": "/DICED/static/js/main.e72d8581.chunk.js",
-    "main.js.map": "/DICED/static/js/main.e72d8581.chunk.js.map",
+    "main.js": "/DICED/static/js/main.3f7b5a81.chunk.js",
+    "main.js.map": "/DICED/static/js/main.3f7b5a81.chunk.js.map",
     "runtime~main.js": "/DICED/static/js/runtime~main.2a007eee.js",
     "runtime~main.js.map": "/DICED/static/js/runtime~main.2a007eee.js.map",
     "static/js/2.23f64e0e.chunk.js": "/DICED/static/js/2.23f64e0e.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.2ee60a5f.chunk.js": "/DICED/static/js/3.2ee60a5f.chunk.js",
     "static/js/3.2ee60a5f.chunk.js.map": "/DICED/static/js/3.2ee60a5f.chunk.js.map",
     "index.html": "/DICED/index.html",
-    "precache-manifest.3b0ce8a546601f6c777f200dcff2922b.js": "/DICED/precache-manifest.3b0ce8a546601f6c777f200dcff2922b.js",
+    "precache-manifest.3f0cd926cda1928122e24f72d076d6b4.js": "/DICED/precache-manifest.3f0cd926cda1928122e24f72d076d6b4.js",
     "service-worker.js": "/DICED/service-worker.js",
     "static/css/main.c30551eb.chunk.css.map": "/DICED/static/css/main.c30551eb.chunk.css.map",
     "static/media/717fd4d6f85a77a6eaebc9eec0dfcd69.jpg": "/DICED/static/media/717fd4d6f85a77a6eaebc9eec0dfcd69.e9ccc883.jpg",
