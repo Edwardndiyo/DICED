@@ -29,7 +29,7 @@ const ContactUsPage = () => {
     // window.open(whatsappUrl, '_blank');
 
     try {
-      const response = await axios.post(' http://edwardndiyoo.pythonanywhere.com/contact', formData);
+      const response = await axios.post(' https://edwardndiyoo.pythonanywhere.com/contact', formData);
       alert(response.data.message);
     } catch (error) {
       console.error('Error:', error);
