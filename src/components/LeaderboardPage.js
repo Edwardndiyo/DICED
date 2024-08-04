@@ -12,7 +12,7 @@ const LeaderboardPage = () => {
 
   const fetchLeaderboardData = async () => {
     try {
-      const response = await fetch(' http://edwardndiyoo.pythonanywhere.com/get_leaderboard');
+      const response = await fetch(' https://edwardndiyoo.pythonanywhere.com/get_leaderboard');
       const data = await response.json();
       setLeaderboardData(data);
     } catch (error) {
