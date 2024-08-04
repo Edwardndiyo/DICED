@@ -1,6 +1,7 @@
 import React, { useState, useContext, useEffect } from 'react';
 import { ThemeContext } from '../App';
 import { AuthContext } from '../context/AuthContext';
+import { useNavigate } from 'react-router-dom'; 
 import axios from 'axios';
 import './GamePage.css';
 
@@ -32,6 +33,7 @@ const GamePage = () => {
   const [highestScore, setHighestScore] = useState(0);
   const [gamePlayed, setGamePlayed] = useState(false);
   const [isGameActive, setIsGameActive] = useState(true);
+   const navigate = useNavigate();
 
   useEffect(() => {
     const fetchHighestScore = async () => {
@@ -154,7 +156,8 @@ const GamePage = () => {
         total: 0,
       });
       setGamePlayed(false);
-      window.location.href = '/game';
+      // window.location.href = '/game';
+      navigate('/game');
     } catch (error) {
       console.error('Error handling end game:', error);
     }
