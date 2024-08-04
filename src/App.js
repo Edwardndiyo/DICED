@@ -10,6 +10,7 @@ import LeaderboardPage from './components/LeaderboardPage';
 import ContactUsPage from './components/ContactUsPage';
 import LoginPage from './components/LoginPage';
 import SignupPage from './components/SignupPage';
+import RedirectToHome from './pages/RedirectToHome';
 import { AuthContext, AuthProvider } from './context/AuthContext';
 
 import './App.css';
@@ -46,6 +47,7 @@ const AppContent = () => {
             <Route path="/contact" element={isAuthenticated ? <ContactUsPage /> : <Navigate to="/login" />} />
             <Route path="/signup" element={<SignupPage />} />
             <Route path="/login" element={<LoginPage />} />
+            <Route path="*" element={<RedirectToHome />} /> {/* Catch-all route */}
           </Routes>
           <Footer />
         </Router>
