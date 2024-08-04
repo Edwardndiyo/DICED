@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://edwardndiyoo.pythonanywhere.com',
+  baseURL: 'https://edwardndiyoo.pythonanywhere.com',
 });
 
 export default api;
