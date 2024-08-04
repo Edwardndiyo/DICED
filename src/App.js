@@ -10,7 +10,7 @@ import LeaderboardPage from './components/LeaderboardPage';
 import ContactUsPage from './components/ContactUsPage';
 import LoginPage from './components/LoginPage';
 import SignupPage from './components/SignupPage';
-import RedirectToHome from './pages/RedirectToHome';
+import RedirectToHome from './components/RedirectToHome';
 import { AuthContext, AuthProvider } from './context/AuthContext';
 
 import './App.css';
